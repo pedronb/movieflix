@@ -57,12 +57,18 @@ cd movieflix
 
 2. Build da imagem Docker:
 
+```bash
 docker build -t pedronevesb/movieflix:latest .
+```
 
 3. Rodar o container:
 
+```bash
 docker run -d -p 8080:80 pedronevesb/movieflix:latest
+```
 
 4. Acesse a aplicação no navegador:
 
+```bash
 http://localhost:8080
+```
