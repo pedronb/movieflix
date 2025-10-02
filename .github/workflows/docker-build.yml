@@ -35,7 +35,7 @@ jobs:
 
       - name: Tag da imagem
         run: |
-          docker tag minha-app:teste pedronevesb/movieflix:latest
+          docker tag movieflix:teste pedronevesb/movieflix:latest
 
       - name: Push para Docker Hub
         run: |
